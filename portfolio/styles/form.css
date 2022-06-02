@@ -121,11 +121,11 @@ form .submit-btn{
     cursor: pointer;
     border-radius: 5px;
     padding: 13px 25px;
-    background:#0d6efd ;
+    background:rgb(216, 102, 45);
     transition: background 0.3s ease;
 }
 .submit-btn button:hover{
-    background:#025ce3 ;
+    background: rgba(216, 102, 45, 0.822);
 
 }
 
@@ -139,10 +139,10 @@ form .submit-btn{
     .wrapper header{
         text-align: center;
     }
-    .wrapper form{
+    /* .wrapper form{
         margin: 35px 20px;
 
-    }
+    } */
     form .dbl-field{
         flex-direction: column;
         margin-bottom: 0px;
@@ -169,5 +169,15 @@ form .submit-btn{
     .submit-btn span{
         margin: 20px 0 0 ;
         text-align: center;
+    }
+
+    .wrapper{
+        width: 500px;
+        margin: auto;
+        margin-top: 100px;
+
+    }
+    .wrapper form{
+        margin-bottom: 0;
     }
 }

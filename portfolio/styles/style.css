@@ -171,7 +171,7 @@
 
 .contact-section .contact-header{
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     padding-top:30px ;
 }
 .contact-header h2{
@@ -186,6 +186,53 @@
 
 .contact-section .contact-links{
     float: right;
-    margin-bottom: 100px;
+    margin-top: -70px;
+    /* margin-bottom: 100px; */
     
+}
+
+@media screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-section a{ display: none;}
+    .nav-section .nav-items li a.icon-bar{
+        float: right;
+        display: block;
+        font-size: 35px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+
+
+ 
+    .project-section .heading{
+        padding: 0;
+        width: 400px;
+    }
+    .heading h2{
+        text-transform: uppercase;
+    }
+    .project-section .project-card{
+        align-items: center;
+        margin: 15px auto;
+        width: 400px;
+    }
+    .project-card img{
+        width: 400px;
+    }
+
+.contact-section .contact-links{
+    text-align: center;
+    align-items: center;
+    margin: auto 70px;
+    /* padding-top: 40px; */
+}
+.contact-links a{
+    text-decoration: none;
+    color: rgb(216, 102, 45);
+    margin: 10px;
+    font-size: 20px;
+}
 }
